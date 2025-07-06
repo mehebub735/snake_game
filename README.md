@@ -1,8 +1,8 @@
-# 🐍 Snake Game – CSE173 Group Project
+# 🐍 Snake Game – CSE115 Group Project
 
 ## 📚 Course Information
 
-**Course Code:** CSE173\
+**Course Code:** CSE115\
 **Section:** 02\
 **Project Group:** 4
 
