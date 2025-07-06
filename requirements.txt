@@ -1,0 +1,10 @@
+The following libraries are required for the project-
+1. stdio.h - Standard Input/Output functions
+
+2. stdlib.h - Standard Library functions (Will be used to generate foods and power-ups using the rand() function)
+
+3. conio.h - Console Input/Output functions (used for _kbhit() and _getch())
+
+4. windows.h - Windows API functions (used for Sleep())
+
+5. stdbool.h - Boolean type and values (true, false)
