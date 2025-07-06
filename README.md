@@ -9,10 +9,10 @@
 **Group Members:**
 
 - Raonok Matabber – 2523862642
-- Labib [ID]
-- Tanvir [ID]
-- Tahsin [ID]
-- Mehebub [ID]
+- Labib - 2524053642
+- Tanvir - 2522060642
+- Tahsin - 2523961642
+- Mehebub - 2523427642
 
 ---
 
@@ -80,47 +80,9 @@ We are developing this collaboratively with **GitHub version control**, ensuring
 
 ---
 
-## 🗂️ Project Structure
-
-```plaintext
-📁 Snake-Game-Project/
- ├── snake.c                # Main source code
- ├── README.md              # This file
- ├── requirements.txt       # (Optional)
- ├── /data                  # (Optional) for extra files
- ├── /support               # (Optional) for extra modules
- ├── /others
-      ├── update_report.pdf # 2-page update report
-      ├── final_report.pdf  # 8-page final report
-      ├── presentation.pptx # Final presentation slides
-      ├── demo_video.mp4    # 1-min screen-capture demo video
-```
-
----
-
 ## 📸 Demo
 
 We will upload a **1-minute screen recording** here showing the game running smoothly, with food spawning, snake growing, and score updating.
-
----
-
-## 🤝 How to Contribute
-
-This repository is a **group project**, so all members should:
-
-- Work in **branches** if adding major features.
-- Write clear **commit messages** (e.g., “Added food generation logic”, “Fixed wall collision bug”).
-- Review each other’s code.
-- Push regularly to avoid merge conflicts.
-- Keep the `README.md` up to date with any new instructions.
-
----
-
-## ⚖️ License & Academic Integrity
-
-This project is for **educational purposes only** as part of CSE173 at North South University.\
-All code has been written by the group members unless otherwise stated.\
-Any external resources or tutorials have been properly cited to ensure no plagiarism.
 
 ---
 
