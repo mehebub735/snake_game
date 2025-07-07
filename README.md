@@ -97,7 +97,7 @@ Special thanks to the open-source community and **OpenAI’s ChatGPT**, which su
 
 ```
 [1] M. Shifat-E-Rabbi, “Course Manual – Theory,” NSU, 2025.
-[2] GeeksforGeeks, “Simple Snake Game in C,” https://www.geeksforgeeks.org/simple-snake-game-in-c/, accessed July 2025.
+[2] GeeksforGeeks, “Simple Snake Game in C,” https://www.geeksforgeeks.org/c/snake-game-in-c/, accessed July 2025.
 [3] OpenAI, “ChatGPT,” https://chat.openai.com, accessed July 2025.
 [4] Microsoft Docs, “system function,” https://learn.microsoft.com/en-us/cpp/c-runtime-library/reference/system, accessed July 2025.
 [5] W3Schools, “C Programming Language Tutorial,” https://www.w3schools.com/c/, accessed July 2025.
