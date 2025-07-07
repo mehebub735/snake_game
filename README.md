@@ -9,10 +9,10 @@
 **Group Members:**
 
 - Raonok Matabber – 2523862642
-- Labib - 2524053642
-- Tanvir - 2522060642
-- Tahsin - 2523961642
-- Mehebub - 2523427642
+- Farhan Haque Labib - 2524053642
+- Md Tanvir Hossain Sisir - 2522060642
+- Tahsin Rahman - 2523961642
+- Mehebub Hassan Sorno - 2523427642
 
 ---
 
