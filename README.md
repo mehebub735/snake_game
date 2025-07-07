@@ -3,7 +3,7 @@
 ## 📚 Course Information
 
 **Course Code:** CSE115\
-**Section:** 02\
+**Section:** 04\
 **Project Group:** 4
 
 **Group Members:**
