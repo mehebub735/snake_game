@@ -2,10 +2,12 @@
 #include <stdlib.h>
 #include <conio.h>
 #include <windows.h>
-#include <stdbool.h>
+#include <time.h>
 
-#define HEIGHT 31
-#define WIDTH 70
+#define WIDTH 40
+#define HEIGHT 20
+#define MAX_LENGTH 100
+#define INITIAL_SPEED 200
 
 typedef enum {STOP = 0, LEFT, RIGHT, UP, DOWN} direction;
 
