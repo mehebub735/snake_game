@@ -48,13 +48,16 @@ void hideCursor() {
     HANDLE consoleHandle = GetStdHandle(STD_OUTPUT_HANDLE);
     CONSOLE_CURSOR_INFO cursorInfo;
     GetConsoleCursorInfo(consoleHandle, &cursorInfo);
-    cursorInfo.bVisible = FALSE; // make cursor invisible
+    cursorInfo.bVisible = FALSE; 
     SetConsoleCursorInfo(consoleHandle, &cursorInfo);
 }
 
 void clearScreen() {
     COORD coord = {0, 0};
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);
+
+
+
 void draw(gamestate* game){
     system("cls");
     for (int i=0; i<WIDTH; i++){printf("-");}
