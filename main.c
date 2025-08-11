@@ -9,29 +9,52 @@
 #define MAX_LENGTH 100
 #define INITIAL_SPEED 200
 
-typedef enum {STOP = 0, LEFT, RIGHT, UP, DOWN} direction;
+typedef enum { UP, DOWN, LEFT, RIGHT } Direction;
 
-typedef struct {
-    int x,y;} position;
+struct Point {
+    int x, y;
+};
 
-typedef struct {
-    position head;
-    position body[100];
-    int length;
-    direction dir;
-    int score;
-    bool gameover;
-} gamestate;
+struct Snake snake;
+struct Point food, powerup;
 
-void setup(gamestate* game){
-    game->head.x = WIDTH/2;
-    game->head.y = HEIGHT/2;
-    game->length = 1;
-    game->dir = STOP;
-    game->score = 0;
-    game->gameover = FALSE;
+int score = 0, highscore = 0;
+int game_over = 0;
+int speed = INITIAL_SPEED;
+int powerup_timer = 0;
+
+void load_highscore() {
+    FILE *file = fopen("Highscore.txt", "r");
+    if (file != NULL) {
+        fscanf(file, "%d", &highscore);
+        fclose(file);
+    } else {
+        printf("There was an error opening the file.");
+        return;
+    }
 }
 
+void save_highscore() {
+    FILE *file = fopen("Highscore.txt", "w");
+    if (file != NULL) {
+        fprintf(file, "%d", highscore);
+        fclose(file);
+    } else {
+        printf("There was an error opening the file.");
+        return;
+    }
+}
+void hideCursor() {
+    HANDLE consoleHandle = GetStdHandle(STD_OUTPUT_HANDLE);
+    CONSOLE_CURSOR_INFO cursorInfo;
+    GetConsoleCursorInfo(consoleHandle, &cursorInfo);
+    cursorInfo.bVisible = FALSE; // make cursor invisible
+    SetConsoleCursorInfo(consoleHandle, &cursorInfo);
+}
+
+void clearScreen() {
+    COORD coord = {0, 0};
+    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);
 void draw(gamestate* game){
     system("cls");
     for (int i=0; i<WIDTH; i++){printf("-");}
