@@ -114,7 +114,6 @@ int main() {
         logic(&game);
         Sleep(100);
     }
-
     return 0;
 }
 
