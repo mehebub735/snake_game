@@ -56,8 +56,6 @@ void clearScreen() {
     COORD coord = {0, 0};
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);
 
-
-
 void draw(gamestate* game){
     system("cls");
     for (int i=0; i<WIDTH; i++){printf("-");}
@@ -117,4 +115,3 @@ int main() {
 
     return 0;
 }
-
